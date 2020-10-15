@@ -138,7 +138,7 @@ section {
   background-color: #f2f2f2;
 }
 .bg-primary {
-  background-color: #00a885;
+  background-color: #72DAD3;
 }
 .bg-finence {
   background-color: #13a0b2;
@@ -1473,20 +1473,111 @@ work Section style
   margin-top: 115px;
 }
 
-#headerbar .hero-wrap {
-  position: relative;
-  position: absolute;
-  overflow: hidden;
-  height: 100vh;
-  width: 100%;
+.social {
+  position: fixed;
+  right: initial;
+  bottom: initial;
   top: 0;
-  bottom: 0;
+  left: 0;
+  left: 10px;
+  z-index: 1000;
 }
-#headerbar .hero-wrap {
-  position: absolute;
-  overflow: hidden;
-  height: 100vh;
-  width: 100%;
-  top: 0;
-  bottom: 0;
+
+.social a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  font-size: 18px;
+  line-height: 28px;
+  padding: 6px;
+  margin-top: 5px;
+  margin-right: 5px;
+  border-radius: 36px;
+  text-align: center;
+  color: #252525;
+  background: #71dbd4;
 }
+
+@media only screen and (min-width : 320px) {#background{background-attachment: none !important; padding-top: 300px;} }
+
+#footer-main {
+    color: #e6e6e6;
+    background-color: #252525;
+    position: relative;
+}
+
+
+    
+.origin-core-legal {
+    text-align: center;
+    background-color: #222;
+    font-size: 11px;
+    color: #555;
+    padding: 10px 0;
+}
+.origin-core-legal {
+    text-align: center;
+    background-color: #222;
+    font-size: 11px;
+    color: #555;
+    padding: 10px 0;
+}
+
+a {
+    color: #71dbd4;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.origin-core-legal a {
+    color: #555;
+}
+
+@media only screen and (min-width: 768px)
+#headerbar .social {
+    right: 20px;
+    bottom: 186px;
+    z-index: 10;
+    left: initial;
+    top: initial;
+}
+#headerbar .social {
+    position: fixed;
+    right: initial;
+    bottom: initial;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+@media only screen and (min-width: 768px){
+#headerbar .social {
+    right: 20px;
+    bottom: 186px;
+    z-index: 10;
+    left: initial;
+    top: initial;
+}
+#headerbar .social {
+    position: fixed;
+    right: initial;
+    bottom: initial;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+
+
+#footer {
+background-color: #1a1a1a;
+}
+
+.footer-top h1, h3 {
+ color: #fff;
+}
+
+.footer-top h3 {
+    color: #fff;
+   }
