@@ -129,7 +129,6 @@ nav.bootsnav.navbar-full .navbar-collapse {
   top: 0;
   left: 0;
   padding: 0;
-  display: none !important;
   z-index: 9;
 }
 
@@ -180,6 +179,7 @@ nav.bootsnav.navbar-full .navbar-collapse ul.nav > li {
   float: none;
   display: block;
   text-align: center;
+  margin-left: 30px;
 }
 
 nav.bootsnav.navbar-full .navbar-collapse ul.nav > li > a {
@@ -1633,4 +1633,34 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked {
   padding-top: 50px !important;
   outline: none;
   bottom: 37px;
+}
+
+.navbar-nav {
+  margin: 7.5px -15px;
+}
+.nav {
+  padding-left: 240px;
+  margin-bottom: 0;
+  list-style: none;
+}
+.navbar .navbar-collapse {
+  border-color: #71dbd4;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #e7e7e7;
+}
+.container-fluid > .navbar-collapse,
+.container-fluid > .navbar-header,
+.container > .navbar-collapse,
+.container > .navbar-header {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+#navbar {
+  position: fixed;
+  min-height: 50px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  z-index: 2;
 }
