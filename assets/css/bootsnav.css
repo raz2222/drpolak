@@ -1639,7 +1639,8 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked {
   margin: 7.5px -15px;
 }
 .nav {
-  padding-left: 240px;
+  padding-top: 10px;
+  padding-left: 2px;
   margin-bottom: 0;
   list-style: none;
 }

@@ -294,28 +294,3 @@
   -ms-transform: translateX(0) skewX(-45deg);
   transform: translateX(0) skewX(-45deg);
 }
-
-.hero-overlay-pattern {
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background: url(./) no-repeat right bottom;
-  background-color: ;
-  background-size: 74% auto;
-  z-index: 3;
-  -moz-animation-delay: 0.2s;
-  animation-delay: 0.2s;
-}
-
-.hero-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background: url(./hero-overlay.png) no-repeat right bottom;
-  background-size: 90% auto;
-  z-index: 2;
-}
