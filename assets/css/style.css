@@ -138,7 +138,7 @@ section {
   background-color: #f2f2f2;
 }
 .bg-primary {
-  background-color: #72DAD3;
+  background-color: #72dad3;
 }
 .bg-finence {
   background-color: #13a0b2;
@@ -349,7 +349,6 @@ ul {
 /*all overlay*/
 
 .overlay {
-  
   width: 100%;
   height: 100%;
   position: absolute;
@@ -409,7 +408,7 @@ Button
 }
 .btn-primary {
   color: #fff;
-  background-color:#71dbd4;
+  background-color: #71dbd4;
   border: 1px solid;
   border-color: #71dbd4;
 }
@@ -717,7 +716,7 @@ textarea::-ms-input-placeholder {
 
 /*Preloader*/
 #loading {
-  background-color: #00a885;
+  background-color: #7bcacb;
   height: 100%;
   width: 100%;
   position: absolute;
@@ -911,7 +910,7 @@ Home Section style
   width: 100%;
 }
 .home2 {
-  background-color: #72DAD3;
+  background-color: #72dad3;
   background-size: cover;
   position: relative;
   padding-top: 300px;
@@ -1506,99 +1505,113 @@ work Section style
   background: #71dbd4;
 }
 
-@media only screen and (min-width : 320px) {#background{background-attachment: none !important; padding-top: 300px;} }
+@media only screen and (min-width: 320px) {
+  #background {
+    background-attachment: none !important;
+    padding-top: 300px;
+  }
+  #footer {
+    background-color: #1b1b1b;
+  }
+  .footer-top h1,
+  h3,
+  h5 {
+    color: #fff;
+    padding-top: 20px;
+  }
+}
 
 #footer-main {
-    color: #e6e6e6;
-    background-color: #252525;
-    position: relative;
+  color: #e6e6e6;
+  background-color: #252525;
+  position: relative;
 }
 
-
-    
 .origin-core-legal {
-    text-align: center;
-    background-color: #222;
-    font-size: 11px;
-    color: #555;
-    padding: 10px 0;
+  text-align: center;
+  background-color: #222;
+  font-size: 11px;
+  color: #555;
+  padding: 10px 0;
 }
 .origin-core-legal {
-    text-align: center;
-    background-color: #222;
-    font-size: 11px;
-    color: #555;
-    padding: 10px 0;
+  text-align: center;
+  background-color: #222;
+  font-size: 11px;
+  color: #555;
+  padding: 10px 0;
 }
 
 a {
-    color: #71dbd4;
-    -webkit-transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -ms-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
+  color: #71dbd4;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 .origin-core-legal a {
-    color: #555;
+  color: #555;
 }
 
-@media only screen and (min-width: 768px)
+@media only screen and (min-width: 768px) #headerbar .social {
+  right: 20px;
+  bottom: 186px;
+  z-index: 10;
+  left: initial;
+  top: initial;
+}
 #headerbar .social {
+  position: fixed;
+  right: initial;
+  bottom: initial;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+@media only screen and (min-width: 768px) {
+  .social {
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+  }
+
+  #headerbar .social {
     right: 20px;
     bottom: 186px;
     z-index: 10;
     left: initial;
     top: initial;
-}
-#headerbar .social {
+  }
+  #headerbar .social {
     position: fixed;
     right: initial;
     bottom: initial;
     top: 0;
     left: 0;
     z-index: 1000;
-}
-@media only screen and (min-width: 768px){
-#headerbar .social {
-    right: 20px;
-    bottom: 186px;
-    z-index: 10;
-    left: initial;
-    top: initial;
-}
-#headerbar .social {
-    position: fixed;
-    right: initial;
-    bottom: initial;
-    top: 0;
-    left: 0;
-    z-index: 1000;
-}
+  }
 
+  #footer {
+    background-color: #1a1a1a;
+  }
 
-
-#footer {
-background-color: #1a1a1a;
-}
-
-.footer-top h1, h3 {
- color: #fff;
- padding-top: 20px;
-}
-
-.footer-top h3 {
+  .footer-top h1,
+  h3 {
     color: #fff;
-   }
+    padding-top: 20px;
+  }
 
-   .copyright{
-     padding-top: 20px;
-     padding-bottom: 20px;
-   }
+  .footer-top h3 {
+    color: #fff;
+  }
 
+  .copyright {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
 
-
-   .hero-overlay-pattern {
+  .hero-overlay-pattern {
     position: absolute;
     top: 0;
     left: 0;
@@ -1611,18 +1624,21 @@ background-color: #1a1a1a;
     -moz-animation-delay: 0.2s;
     animation-delay: 0.2s;
   }
-  
+
   .hero-overlay {
     position: absolute;
     top: 0;
     left: 0;
     bottom: 0;
     width: 100%;
-    background: url(./hero-overlay.png) no-repeat right bottom;
+    background: url(.) no-repeat right bottom;
     background-size: 90% auto;
     z-index: 2;
   }
-  
 
-
-   
+  @media only screen and (min-width: 300px) {
+    #footer {
+      background-color: #1a1a1a;
+    }
+  }
+}
