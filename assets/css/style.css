@@ -917,6 +917,13 @@ Home Section style
   padding-bottom: 190px;
   width: 100%;
 }
+
+.page {
+  position: relative;
+  padding-top: 200px;
+  padding-bottom: 190px;
+  width: 100%;
+}
 .main_home .home_text h2 {
   font-size: 36px;
   font-weight: 400;
@@ -1641,4 +1648,14 @@ a {
       background-color: #1a1a1a;
     }
   }
+}
+
+@media only screen and (min-width: 320px) {
+  #footerpage {
+    background-color: none;
+  }
+}
+
+.mapouter {
+  margin-bottom: 100px;
 }
