@@ -525,7 +525,7 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked {
   }
 
   nav.navbar.bootsnav ul.nav > li.dropdown > a.dropdown-toggle:after {
-    font-family: "FontAwesome";
+    font-family: "Arimo", sans-serif;
     content: "\f0d7";
     margin-left: 5px;
     margin-top: 2px;
@@ -571,7 +571,7 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked {
     ul.dropdown-menu
     li.dropdown
     > a.dropdown-toggle:before {
-    font-family: "FontAwesome";
+    font-family: "Arimo", sans-serif;
     float: right;
     content: "\f105";
     margin-top: 0;
@@ -583,7 +583,7 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked {
     ul.dropdown-menu
     li.dropdown
     > a.dropdown-toggle:before {
-    font-family: "FontAwesome";
+    font-family: "Arimo", sans-serif;
     float: left;
     content: "\f104";
     margin-top: 0;
@@ -962,7 +962,7 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked {
     ul.dropdown-menu
     li.dropdown
     > a:before {
-    font-family: "FontAwesome";
+    font-family: "Arimo", sans-serif;
     content: "\f105";
     float: right;
   }
@@ -1003,7 +1003,7 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked {
     .megamenu-content
     .col-menu
     .title:before {
-    font-family: "FontAwesome";
+    font-family: "Arimo", sans-serif;
     content: "\f105";
     float: right;
   }
@@ -1089,7 +1089,7 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked {
   }
 
   nav.navbar.bootsnav li.dropdown a.dropdown-toggle:before {
-    font-family: "FontAwesome";
+    font-family: "Arimo", sans-serif;
     content: "\f105";
     float: right;
     font-size: 16px;
@@ -1204,7 +1204,7 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked {
   }
 
   nav.navbar.bootsnav .dropdown .megamenu-content .col-menu .title:before {
-    font-family: "FontAwesome";
+    font-family: "Arimo", sans-serif;
     content: "\f105";
     float: right;
     font-size: 16px;

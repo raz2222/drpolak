@@ -1,0 +1,62 @@
+.skew {
+  transform: skew(-7deg);
+}
+
+body {
+  display: flex;
+}
+
+.button-list {
+  &:extend(.skew);
+  margin-left: 20%;
+  width: 16em;
+  max-width: 25%;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -50vw;
+    width: 50vw;
+    height: 100%;
+    margin-left: 1em;
+    background: #102331;
+    z-index: -1;
+  }
+}
+
+.button {
+  display: block;
+  padding: 1em;
+  background: #01919a;
+  margin-bottom: 10px;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 0.7em;
+
+  &:hover,
+  &:focus {
+    background: #e9c601;
+  }
+}
+
+.content {
+  padding: 2em;
+  max-width: 45%;
+  width: 26em;
+
+  h1 {
+    font-size: 1.5em;
+    margin-top: 0;
+  }
+  &:extend(.skew);
+}
+
+.content,
+.button-list {
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 8em;
+  padding-bottom: 8em;
+}
