@@ -25,7 +25,7 @@ Author URI: http://bootstrapthemes.co
    ========================================================================== */
 html,
 body {
-  font-size: 14px;
+  font-size: 18px;
   color: #797979;
   width: 100%;
   padding: 0;
@@ -40,7 +40,9 @@ body {
 /*------------------------------------------------------------------*/
 /*   IE10 in Windows 8 and Windows Phone 8 Bug fix
 /*-----------------------------------------------------------------*/
-
+*p {
+  font-size: ;
+}
 @-webkit-viewport {
   width: device-width;
 }
@@ -898,7 +900,7 @@ Home Section style
 ==================*/
 
 .home {
-  background: url(../images/home-bg.jpg) no-repeat scroll center center;
+  background: url(/home-bg.jpg.jpg) no-repeat scroll center center;
   background-size: cover;
   position: relative;
   padding-top: 300px;
